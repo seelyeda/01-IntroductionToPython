@@ -48,7 +48,7 @@ import rosegraphics as rg
 
 ###############################################################################
 #
-# TODO: 3.
+# DONE: 3.
 #   Run this module.  A window will pop up and Turtles will move around.
 #   After the Turtles stop moving,
 #      ** click anywhere in the window to close the window **.
@@ -109,7 +109,7 @@ natasha.speed = 5  # Bigger means faster, max is usually about 10
 
 natasha.backward(50)
 natasha.right(90)
-natasha.forward(125)
+natasha.forward(120)
 
 natasha.speed = 1  # Now slower
 natasha.go_to(rg.Point(-100, 200))
@@ -126,6 +126,10 @@ natasha.go_to(rg.Point(-100, 200))
 #   As always, test by running the module.
 #
 ###############################################################################
+dave=rg.SimpleTurtle('turtle')
+dave.pen =rg.Pen('red',60)
+dave.speed = 2
+dave.forward(200)
 
 ###############################################################################
 #
