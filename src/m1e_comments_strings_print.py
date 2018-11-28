@@ -21,10 +21,18 @@
 #
 ###############################################################################
 
-
+import rosegraphics as rg
 print('Hello, World')
 print('hi there')
 print('one', 'two', 'buckle my shoe')
 
 print(3 + 9)
 print('3 + 9', 'versus', 3 + 9)
+print(4, 9)
+y = 3.713
+import math
+print(type(y))
+print(3*('hi' + 'bye'))
+p2 = rg.Point(7, 3)
+p1 = rg.Point(100, 50)
+print((4 * p1.x) + p2.y)
