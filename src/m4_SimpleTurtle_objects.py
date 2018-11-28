@@ -104,19 +104,19 @@ boris.forward(200)
 #     set its  pen  and  speed  INSTANCE VARIABLES, and ask it to do things.
 # -----------------------------------------------------------------------------
 natasha = rg.SimpleTurtle('turtle')
-natasha.pen = rg.Pen('red', 30)  # Second argument is the Pen's thickness
+natasha.pen = rg.Pen('yellow', 30)  # Second argument is the Pen's thickness
 natasha.speed = 5  # Bigger means faster, max is usually about 10
 
-natasha.backward(50)
-natasha.right(90)
-natasha.forward(120)
+natasha.backward(60)
+natasha.right(110)
+natasha.forward(220)
 
 natasha.speed = 1  # Now slower
-natasha.go_to(rg.Point(-100, 200))
+natasha.go_to(rg.Point(-100, 300))
 
 ###############################################################################
 #
-# TODO: 4.
+# DONE: 4.
 #   Add a few more lines of your own code to make one of the existing
 #   SimpleTurtles move some more and/or have different characteristics.
 #
@@ -127,13 +127,15 @@ natasha.go_to(rg.Point(-100, 200))
 #
 ###############################################################################
 dave=rg.SimpleTurtle('turtle')
-dave.pen =rg.Pen('red',60)
+dave.pen =rg.Pen('green',60)
 dave.speed = 2
 dave.forward(200)
+dave.left(90)
+dave.forward(120)
 
 ###############################################################################
 #
-# TODO: 5.
+# DONE: 5.
 #   The above code  CONSTRUCTS  two SimpleTurtle objects
 #   and gives those objects NAMES:
 #       boris    natasha
@@ -160,7 +162,7 @@ dave.forward(200)
 
 ###############################################################################
 #
-# TODO: 6.
+# DONE: 6.
 #   Ensure that no blue bars on the scrollbar-thing to the right remain.
 #   Run one more time to be sure that all is still OK.
 #
