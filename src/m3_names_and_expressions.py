@@ -18,7 +18,43 @@ print(answer * 100)
 #   Once you completely understand the above, run this module,
 #   confirming that it prints 3200.  Then change the above _TODO_ to DONE.
 ###############################################################################
+def main():
+    a = 2
+    b = 3
 
+    m = do_it(a, b)
+    print(m)
+
+    m = do_it(b, a)
+    print(m)
+
+    m = do_it(a, a)
+    print(m)
+
+    m = do_it(b, b)
+    print(m)
+
+    c = do_it(b, a)
+    m = do_it(c, a)
+    print(m)
+
+    b = do_it(b, a)
+    m = do_it(b, a)
+    print(m)
+
+def do_it(x, y):
+    return x ** y
+
+main()
+
+for k in range(4):
+      print(k)
+
+for k in range(3):
+      print(k + 10)
+
+for k in range(m-34):
+    print((k+35)**3)
 ###############################################################################
 # DONE: 2.
 #   Immediately below this _TODO_, write code that:
@@ -29,7 +65,13 @@ print(answer * 100)
 #   Run your code (fix errors as needed), then change the above _TODO_ to DONE.
 ###############################################################################
 import math
+total = 0
+for k in range(4):
+      total = total + k
+print(k, total)
 
+print('The sum is:')
+print(total)
 print(77+math.cos(2.75))
 ###############################################################################
 # DONE: 3.

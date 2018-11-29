@@ -36,3 +36,22 @@ print(3*('hi' + 'bye'))
 p2 = rg.Point(7, 3)
 p1 = rg.Point(100, 50)
 print((4 * p1.x) + p2.y)
+def mystery(x, y):
+    result = (x + y) / (y - x)
+    return result
+mystery(2,3)
+def box_string(contents):
+    n = len(contents)
+    print('-' * (n + 2))
+    print('!' + contents + '!')
+    print('-' * (n + 2))
+
+def main():
+    foo()
+    print(n)
+    print(m)
+
+def foo():
+    n = 3
+    m = 1
+    return m

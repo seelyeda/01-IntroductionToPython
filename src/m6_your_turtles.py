@@ -43,3 +43,16 @@ for k in range(6):
     dan.pen_down()
     size = size - 10
 window.close_on_mouse_click()
+import math
+total = 0
+for k in range(5):
+    total = total + (k + 10)
+    print(k, total)
+
+print('The sum is:')
+print(total)
+total = 5
+for k in range(3):
+    total = total * k
+
+print(total)
